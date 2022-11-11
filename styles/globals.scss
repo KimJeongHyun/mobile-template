@@ -1,0 +1,75 @@
+// /* ----------------------------------
+//  * CSS Vars
+//  * ---------------------------------- */
+:root {
+  --headerHeight: 60em;
+  --contentHeight: calc(100% - var(--headerHeight));
+}
+
+/* ----------------------------------
+ * Reset+
+ * ---------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+#__next {
+  font-size: 0.2666vw;
+}
+
+html,
+body {
+  font-family: "Noto Sans KR", AppleSDGothicNeo, -apple-system,
+    BlinkMacSystemFont, "Droid Sans", "Roboto", "Segoe UI", "Helvetica", Arial,
+    sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  color: #000;
+  word-break: keep-all;
+  word-wrap: break-word;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-touch-callout: none; /* Safari Touch */
+  -webkit-user-select: none; /* Webkit */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Edge*/
+  user-select: none; /* Future-proof*/
+}
+
+input,
+select {
+  font-family: inherit;
+}
+
+button {
+  font-family: inherit;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  appearance: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* ----------------------------------
+ * Common objects
+ * ---------------------------------- */
+#app {
+  height: 100%;
+  overflow: hidden;
+}
